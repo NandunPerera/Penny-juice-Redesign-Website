@@ -1,0 +1,453 @@
+body{
+    background-color: #f0f0f0;
+     font-family:sans-serif;
+    
+}
+header center a{ 
+    font-weight:bold;
+   margin:30px;
+   font-family: cursive;
+    text-decoration:none;
+  }
+
+header center a:link {
+    
+    color: black;
+    }
+header center a:visited {
+    color: black;
+      
+
+}
+header center a:hover {
+     
+      color: #2F4F4F;
+}
+header center a:active {
+    text-decoration:underline;
+    }
+
+}
+
+header{ background-color:white;
+    margin:auto;
+     width: 80%;
+   
+}
+
+.cover{
+    display: block;
+    clip-path: inset(0 0 27% 0 round 0 0 40% 40%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.logo{
+   
+    margin: auto;
+    height: 100px;
+    width: 150px;
+}
+.menu{ color:black;
+        margin-left:15px;
+        margin-right: 15px;
+    
+}
+.home{
+    left: 5px;
+}
+
+h2{ text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+    font-family: sans-serif  ;
+    color:black;
+}
+p{
+     width: 50%;
+    text-align: center;
+}
+.quote1{
+    margin-left: 220px;
+    font-size: 16px;
+}
+.quote2{
+    font-size: 16px;
+    margin-left: 30px;
+}
+.apple{ margin-top: 20px;
+    margin-left: 280px;
+    width: 150px;
+    height: 150px;
+}
+.orange{
+    display: block;
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+
+}
+.row{
+    background-color: white;
+}
+#navlist {
+        
+    margin-top: 60px;  
+    margin-bottom: -70px;
+      position: relative;
+    }
+
+#navlist li {
+      margin: 0;
+     
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      top: 0;
+}
+
+#navlist li, #navlist a {
+      width: 50px;
+      height: 44px;
+      display: block;
+      
+      
+}
+
+#facebook {
+    margin: 4%;
+    left:43%;
+      width: 45px;
+      background: url('images/socialmedia.png') 0 0;
+ 
+}
+
+#twitter {
+      
+       left:48%;
+      width: 44px;
+      background: url('images/socialmedia.png') -96px 0;
+}
+
+#instagram { 
+        left:53%;
+      width: 45px;
+      background: url('images/socialmedia.png') -45px 0;
+}
+/*About us */
+.about{ margin: auto;
+    width: 100%;
+    display: block;
+}
+h2{margin-top: 20px;
+    color: black;
+}
+.q1{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+.q2{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 60px;
+   
+    text-align: center;
+    
+}
+.girl{
+    
+    margin-left: -40px;
+    width: 400px;
+    height: 400px;
+}
+#boy{display: block;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+   
+}
+
+
+
+/* Contactus*/
+
+.contactus{width: 100%;}
+       
+#h2 {
+    color: black;
+    margin-top: 40px;
+    font-family:  sans-serif ;
+    font-size:35px;
+}
+.text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75% ;
+    padding:10px ;
+    height:50px;
+    
+}
+textarea{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    padding:10px;
+    height:250px;
+    }
+#send{
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height:50px;
+    padding:5px 5px;
+    background-color:black;
+    color: white;
+    font-size:20px;
+    border-radius: 20px;
+}
+
+.question{
+    background-image: url(images/fruit1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y:30px ;
+    background-size: contain;
+} 
+/* thankyou for contact*/
+.thankyou{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+}
+.thanks{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 995px) {
+    .apple, .orange{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quote1,.quote2{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    #facebook{
+        left: 36%;
+    }
+    #twitter{
+        left:46% ; 
+    }
+    #instagram{
+        left: 56%;
+    }
+}
+/*cart*/
+table{width: 50%;
+    margin: auto;
+    text-align: center;
+    
+   
+    font-size: 18px;
+    padding: 5px;
+
+height: 500px;}
+.shopbtn{
+    font-size: 25px;
+    text-align: center;
+    margin:  10px 50px 10px 50px;
+    color: black;
+    
+
+
+}
+/*Products*/
+
+  
+.list{ color: #db1f1f;
+    display: inline;
+    text-align:center;
+    margin-left: 30px;
+    margin-right: auto;
+    left: 10px;
+    font-weight: bold;
+
+  }
+  h1{
+    color: #0000002d;
+  }
+  h2{
+    text-align:center;
+    margin-left: 60px;
+  }
+  .menu{position: relative;
+    
+  
+   
+  }
+  
+
+  
+  .s{
+    text-align: center;
+  }
+  
+  .logo{max-height: 200px;
+        max-width: 300px;
+  }
+  .items{ display: block;
+       height: 200px;
+       width: 200px;
+       margin: 10px;
+       margin-right: auto;
+       margin-left: auto;
+
+  }
+  p{text-align: center;}
+  button{ background-color: black;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+  }
+  p.juice{ font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+      color:black;
+  }
+  .products{
+      margin-top: 20px;
+      color: black;
+
+  }
+  /* The Modal (background) */
+.modal {
+
+  display: none; /* Hidden by default */
+  align-items: center;
+  justify-content: center;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  margin-left: 70%;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.box{color:white;
+  background-color: black;
+  border-style: solid;
+  margin: 10px;
+  border-width: 5px;
+  border-color:black ;
+}
+.cart{
+ float: right;
+  display: inline;
+   height: 100px;
+   width: 100px;
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width:995px) {
+    .apple {
+        display: block;
+        margin-left: 220px;
+       
+    }
+    .orange{
+        display: block;
+        margin-left: 80px;
+    }
+
+    .quote1{
+        margin-right: auto;
+        margin-left: 170px;
+        text-align: center;
+    }
+    .quote2{
+        margin-left: 30px;
+    }
+    #facebook{
+        left: 41%;
+    }
+    #twitter{
+        left:48% ; 
+    }
+    #instagram{
+        left: 55%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+.q1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+
+    
+}
+.q2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.girl{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#boy{ display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}

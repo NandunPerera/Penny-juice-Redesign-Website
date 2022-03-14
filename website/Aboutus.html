@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet"> 
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style2.css">
+  
+    <title>About Us</title>
+
+</head>
+<body>
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-12 	">
+                <nav class="navbar navbar-expand-md navbar-light bg-light  d-block d-md-none ">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="Aboutus.html" id="as">About Us</a>
+                        <a class="nav-item nav-link" href="products.html">Products</a>
+                        <a class="nav-item nav-link" href="Contactus.html">Contact Us</a>
+                      </div>
+                    </div>
+                  </nav>
+    
+                </div>
+                <div class="col-12 d-none d-md-block" >
+                <header>
+                   
+                    <center >
+                <a  class="menu" id="home" href="home.html" target="_self">Home</a>
+                <a class="menu"  href="Aboutus.html" target="_self">About Us</a>
+                <img src="images/logo.png" alt="logo" class="logo" >
+                <a  class="menu" href="products.html" target="_self">Products</a>
+               <a class="menu"  href="Contactus.html" target="_self">Contact Us</a>
+               </center>
+           </header>
+           
+            </div>
+            <div class="col-12">
+
+                <img src="images/aboutus3.jpg" alt="" class="about d-none d-md-block">
+            </div>
+            <div class="col-12"><h2> About Us </h2></div>
+            <div  class="col-lg-6" >
+                <center>
+                    <img class= "girl d-lg-none " src="images/aboutus2.jpg" alt="girl"> 
+            <p class="q1">
+
+                
+                We're a family-owned business that was founded in 2001.
+                We have over 40 years of experience in the beverage industry.We provide a variety of flavors that all kids can enjoy!
+                All the juice concentrates that we sell are compliant with the USDA and FDA guidelines. 
+                
+            </center>
+            </p>
+            </div>
+            <div class="col-lg-6" >
+                <img class= "girl d-none d-lg-block  " src="images/aboutus2.jpg" alt="girl"> 
+            </div>
+            <div  class="col-lg-6">
+                <img src="images/aboutus4.jpg" id="boy" class="aboutus " alt="boy">
+               </div>
+               <div class="col-lg-6"> 
+                  
+             <p class="q2">
+
+                 
+                 
+                 Our system is fast and easy to use. Penny Juice greatly reduces storage and handling requirements. 1 gallon pre-measured mix pitchers available to assure cost control and flavor consistency.
+                 And also you don't need to refrigerate the concentrates before or after opening them.
+                 
+                 
+               
+              
+                </p>
+            </div>
+            <div class="col-12">
+                
+                <footer > 
+                    
+                    <center>
+      
+                        <ul id="navlist">
+                          <center>
+                            <a href= "https://www.facebook.com/PENNYJUICE/" target="_blank"> <li id="facebook">  </li></a>
+                            <a href= "https://twitter.com/1pennyjuice" target="_blank">  <li id="twitter" >  </li> </a>
+                            <a href= "https://www.instagram.com/pennyjuice/?hl=en" target="_blank">	<li id="instagram"> </li> </a>
+                          </center>
+                          </ul>
+                      </center>
+                     <center> <p style="text-align: center;"> &copy; 2020 The content on this website is owned by us and our licensors.</p> </center>
+                     
+                      </footer>
+            
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+<script>
+
+ 
+
+  let height;
+
+  const sendPostMessage = () => {
+    if (height !== document.getElementById('container').offsetHeight) {
+      height = document.getElementById('container').offsetHeight;
+      window.parent.postMessage({
+        frameHeight: height
+      }, '*');
+      console.log(height);
+    }
+  }
+
+  window.onload = () => sendPostMessage();
+  window.onresize = () => sendPostMessage();
+  document.getElementById('add-para').onclick = () => sendPostMessage();
+  document.getElementById('remove-para').onclick = () => sendPostMessage();
+
+</script>
+</html>
